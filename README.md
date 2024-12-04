@@ -7,7 +7,9 @@ Content of the HTML elements remains intact.
 ## Install
 This project can be installed via composer:
 
-`composer require cradeq/commonmark-html-whitelist-extension`
+```
+composer require cradeq/commonmark-html-whitelist-extension
+```
 
 ## Usage
 ```php
