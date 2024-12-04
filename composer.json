@@ -1,0 +1,25 @@
+{
+    "name": "cradeq/commonmark-html-whitelist-extension",
+    "type": "commonmark-extension",
+    "description": "Allows HTML tags to be used in Markdown, while still escaping or stripping all other HTML input.",
+    "keywords": ["commonmark", "markdown", "extension", "html", "tags"],
+    "homepage": "https://github.com/Cradeq/commonmark-html-whitelist-extension",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "league/commonmark": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cradeq\\CommonMark\\HtmlWhitelistExtension\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cradeq\\CommonMark\\HtmlWhitelistExtension\\Tests\\": "tests/"
+        }
+    }
+}
