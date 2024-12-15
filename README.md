@@ -18,7 +18,7 @@ use League\CommonMark\Environment\Environment;
 use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
 
 $environment = new Environment([
-    'html_input' => 'strip' // Both strip or escape are supported
+    'html_input' => 'strip', // Both strip and escape are supported
     'html_whitelist' => [
         'tags' => ['br', 'sub'], // Any set of html tags
     ],
