@@ -22,7 +22,7 @@ class HtmlTagParser implements InlineParserInterface, ConfigurationAwareInterfac
         $tags = $this->config->get('html_whitelist/tags');
         $tagRegex = implode('|', $tags);
 
-        return InlineParserMatch::regex("<\/?\w?($tagRegex)\s*\/?>");
+        return InlineParserMatch::regex("<\/?($tagRegex)\s*\/?>");
     }
 
     public function parse(InlineParserContext $inlineContext): bool
